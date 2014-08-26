@@ -1,0 +1,6 @@
+<Alloy>
+	<Window class="container">
+		<Require src="botonClose" id="cerrar"></Require>
+		<WebView id="webView" ></WebView>
+	</Window>
+</Alloy>

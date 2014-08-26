@@ -1,0 +1,18 @@
+
+".container" : {
+	top:0,
+	height:50,
+	left:0,
+	backgroundColor:'white',
+	borderColor:'black',
+	borderWidth:1,
+  
+}
+
+"#titulo":{
+	text:'cerrar',
+	font:{
+		size:30,
+		color:'white'
+	}
+}
