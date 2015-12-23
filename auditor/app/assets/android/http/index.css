@@ -1,0 +1,63 @@
+
+@media screen and (min-width: 400px)  {
+	div.container {
+    max-width: 538px;
+  }
+body:{
+	background: 'gray',
+	max-width: 440px;
+}
+  header, footer {
+  	text-align: center;
+    color: white;
+    background: #e91e63;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.51);
+    
+}
+}
+@media screen and (min-width: 600px)  {
+	div.container {
+    max-width: 438px;
+  }
+  
+  body:{
+	background: 'gray',
+	max-width: 440px;
+}
+  
+  	header, footer {
+	  	text-align: center;
+	    color: white;
+	    background: #e91e63;
+	    box-shadow: 0 0 10px rgba(0, 0, 0, 0.51);
+	}
+}
+@media screen and (min-width: 1000px) {
+	
+	body:{
+	background: 'gray',
+	max-width: 440px;
+}
+
+	div.container {
+    max-width: 438px;
+  }
+} 
+
+
+
+h3:{
+	text-align: center;
+	color: #369;
+}
+
+
+header, footer {
+  	text-align: center;
+    color: white;
+    background: #e91e63;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.51);
+    
+}
+
+

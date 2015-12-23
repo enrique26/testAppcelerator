@@ -1,0 +1,17 @@
+<Alloy>
+	<Window class="container">
+		<View id="head" top="0" height="80"></View>
+		<ScrollView top="80" bottom="0" layout="vertical" scrollType="vertical">
+			<TextField id="userField" backgroundColor="white" hintText="User or email" hintTextColor="gray" borderRadius="5" top="25%" width="60%" color="black" textAlign="center"></TextField>
+			<TextField id="passField" backgroundColor="white" hintText="Password" hintTextColor="gray" borderRadius="5" top="2%" width="60%" color="black" textAlign="center" passwordMask="true"></TextField>
+			
+			<Button id="entrar"></Button>
+			
+			<View top="10%" height="50">
+				<Label id="registrarse" text="Registrarse"></Label>
+				<!-- <Label id="recPass" text="Recuperar Contraseña" color="blue" right="15%" width="25%"></Label> -->
+			</View>
+		
+		</ScrollView>
+	</Window>
+</Alloy>

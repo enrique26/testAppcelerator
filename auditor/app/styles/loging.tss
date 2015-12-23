@@ -1,0 +1,75 @@
+
+".container" : {
+  backgroundColor:'gray',
+  windowSoftInputMode:Titanium.UI.Android.SOFT_INPUT_ADJUST_RESIZE 
+}
+
+"#head":{
+	backgroundGradient : {
+            type : 'linear',
+            startPoint : {
+                x : '0%',
+                y : '0%'
+            },
+            endPoint : {
+                x : '0%',
+                y : '100%'
+            },
+            colors : [{color : '#aebcbf',offset : 0.0},
+            		 {color : '#0a0e0a',offset : 0.16},
+			         {color : '#6e7774',offset : 0.61},
+			         {color : '#0a0809',offset : 1.0}]	
+			         
+			            
+    }
+}
+
+"#entrar":{
+	top:"10%", 
+	height:40, 
+	title:"Entrar", 
+	backgroundColor:"white", 
+	color:"white", 
+	borderRadius:5, 
+	width:100,
+	backgroundGradient : {
+            type : 'linear',
+            startPoint : {
+                x : '0%',
+                y : '0%'
+            },
+            endPoint : {
+                x : '0%',
+                y : '100%'
+            },
+            colors : [{color : '#b4ddb4',offset : 0.0},
+            		 {color : '#52b152',offset : 0.12},
+			         {color : '#005700',offset : 0.67},
+			         {color : '#002400',offset : 1.0}]	
+			         
+    }
+	
+}
+
+"#registrarse":{
+	height:40,
+	width:100,
+	textAlign:'center',
+	borderRadius:5,
+	color:'white',
+	backgroundGradient : {
+            type : 'linear',
+            startPoint : {
+                x : '0%',
+                y : '0%'
+            },
+            endPoint : {
+                x : '0%',
+                y : '100%'
+            },
+            colors : [{color : '#a2d6eb',offset : 0.0},
+            		 {color : '#67afcf',offset : 0.5},
+			         {color : '#3591bc',offset : 0.5},
+			         {color : '#1e83b1',offset : 1.0}]
+    }
+}

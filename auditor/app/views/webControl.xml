@@ -1,0 +1,16 @@
+<Alloy>
+	<Window class="container">
+		<View id="head2" height="80" top="0">
+			<TextField id="campoUrl" width="80%" left="5" backgroundColor="white" hintText="url" color="black" clearOnEdit="true"></TextField>
+			<Button id="irB"></Button>
+		</View>
+		<WebView id="auditWeb" top="80" bottom="60" loading="true">
+		</WebView>
+		<View bottom="0" height="60" backgroundColor="white" borderColor="black" borderWidth="1">
+			<View width="25%">
+				<Button id="back" height="40" left="0" width="48%" backgroundColor="gray" color="black" title="<"></Button>
+				<Button id="front" height="40" right="0" width="48%" backgroundColor="gray" color="black" title=">"></Button>		
+			</View>
+		</View>
+	</Window>
+</Alloy>

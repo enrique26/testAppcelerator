@@ -1,0 +1,14 @@
+<Alloy>
+	<Window class="container" title="Registro">
+		<ScrollView top="40" layout="vertical" scrollType="vertical">
+			<TextField id="user" class="textCaja"></TextField>
+			<TextField id="email" class="textCaja"></TextField>
+			<TextField id="name" class="textCaja"></TextField>
+			<TextField id="lastname" class="textCaja" ></TextField>
+			<TextField id="pass" class="textCaja"></TextField>
+			<TextField id="confPass" class="textCaja"></TextField>
+			
+			<Button id="registrar"></Button>
+		</ScrollView>
+	</Window>
+</Alloy>

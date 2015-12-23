@@ -1,0 +1,71 @@
+
+".container" : {
+  backgroundColor:'gray'
+}
+
+"#registrar":{
+	top:40, 
+	borderRadius:5,
+	width:80,
+	height:40,
+	title:"Registrar", 
+	color:"white", 
+	width:120,
+	backgroundColor:"white",
+	backgroundGradient : {
+            type : 'linear',
+            startPoint : {
+                x : '0%',
+                y : '0%'
+            },
+            endPoint : {
+                x : '0%',
+                y : '100%'
+            },
+            colors : [{color : '#a2d6eb',offset : 0.0},
+            		 {color : '#67afcf',offset : 0.5},
+			         {color : '#3591bc',offset : 0.5},
+			         {color : '#1e83b1',offset : 1.0}]
+    }
+}
+
+".textCaja":{
+	width:"60%",
+	backgroundColor:"white",
+	textAlign:"center",
+	color:"black",
+	hintTextColor:"gray",
+	borderRadius:5
+}
+
+"#user":{
+	top:30,
+	hintText:"nickuser",
+}
+
+"#email":{
+	 top:15,
+	 hintText:"email"
+}
+
+"#name":{
+	top:15,
+	hintText:"name"
+}
+
+"#lastname":{
+	top:15, 
+	hintText:"lastname"
+}
+
+"#pass":{
+	top:15, 
+	hintText:"password",
+	passwordMask:true
+}
+
+"#confPass":{
+	 top:15,
+	 hintText:"confirm password",
+	 passwordMask:true
+}

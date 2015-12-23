@@ -1,0 +1,51 @@
+
+".container" : {
+ 	backgroundColor:'gray' 
+}
+
+"#auditWeb":{
+	url:'/http/index.html'
+}
+"#head2":{
+	// backgroundColor:"#896232"
+	 backgroundGradient : {
+            type : 'linear',
+            startPoint : {
+                x : '0%',
+                y : '0%'
+            },
+            endPoint : {
+                x : '0%',
+                y : '100%'
+            },
+            colors : [{color : '#722e13',offset : 0.0},
+            		 {color : '#bf6e4e',offset : 0.51}]	
+			         
+    }
+}
+
+
+"#irB":{
+	height:40,
+	width:40,
+	// backgroundColor:"#119966",
+	right:5,
+	title:"Ir",
+	color:"white",
+	backgroundGradient : {
+            type : 'linear',
+            startPoint : {
+                x : '0%',
+                y : '0%'
+            },
+            endPoint : {
+                x : '0%',
+                y : '100%'
+            },
+            colors : [{color : '#b4ddb4',offset : 0.0},
+            		 {color : '#52b152',offset : 0.12},
+			         {color : '#005700',offset : 0.67},
+			         {color : '#002400',offset : 1.0}]	
+			         
+    }
+}
